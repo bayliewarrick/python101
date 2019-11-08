@@ -1,7 +1,7 @@
 letters_reversed = []
 word_letters = []
 def is_palindrome():
-    word = input("Enter a word to determine whether or not the given word is a palindrome.")
+    word = input("Enter a word to determine whether or not the given word is a palindrome.").lower()
     for letter in word:
         word_letters.append([letter])
     for letter in word:
