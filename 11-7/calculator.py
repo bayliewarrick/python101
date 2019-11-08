@@ -22,7 +22,7 @@ def div(input1, input3):
 
 def calc():
     (input1,input2,input3) = takeinputs()
-
+    
     if input2 == "+":
         result = add(input1, input3)
     elif input2 == "-":
