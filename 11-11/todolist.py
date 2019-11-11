@@ -21,17 +21,17 @@ def add_task():
     'title': title,
     'priority': priority
     }
-    tasks.append(task)
 
 def del_task():
+    show_tasks()
     to_delete = int(input("Enter the index value of the task you wish to delete: "))
     del tasks[to_delete]
 
 def show_tasks():
     for task in tasks:
         print(f"{tasks.index(task)} - {task['title']} - {task['priority']}")
-
-
+    print(sorted)
 
 user_choice()
+
 
