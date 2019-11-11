@@ -10,7 +10,7 @@ def takeinputs():
 
 def add(input1, input3):
     return (input1 + input3)
-
+        
 def sub(input1, input3):
     return (input1 - input3)
 
@@ -42,5 +42,7 @@ def calc():
         print("Exiting Program!")
         exit(1000)
     
+    
+
 
 
