@@ -1,0 +1,7 @@
+title = input("Enter a task here: ")
+priority = input("is this task High, Medium, or Low priority?: ")
+tasks = {
+    'title': title,
+    'priority': priority
+}
+print(tasks)
