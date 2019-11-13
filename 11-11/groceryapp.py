@@ -10,10 +10,16 @@ def display_stores():
         store = stores[index]
         print(f"{index + 1} - {store['name']}")
         items = store["items"]
-        print(items)
+
+def display_lists():
+    for index in range(0,len(stores)):
+        store = stores[index]
+        items = store["items"]
+        for item in items:
+            print(f"{item['name']} - {item['price']}")
+
 
    
-
 def add_item_to_store():
     display_stores()
     store_number = int(input("enter store number: ")) - 1
@@ -31,6 +37,7 @@ while True:
     print("Press 1 to create store")
     print("Press 2 to add item to the store")
     print("Press 3 to view all stores")
+    print("Press 4 to view all lists")
     print("Press q to quit")
 
     choice = input("Enter choice: ")
@@ -41,3 +48,5 @@ while True:
         display_stores()
     elif(choice == "2"):
         add_item_to_store()
+    elif(choice == "4"):
+        display_lists()

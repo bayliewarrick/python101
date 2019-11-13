@@ -1,3 +1,4 @@
+"""
 persons = []
 
 
@@ -17,5 +18,25 @@ while True:
     choice = input("Enter q to quit or any other key to continue")
     if(choice == "q"):
         break
-    
+
 print(persons)
+"""
+
+car_dealership = {
+    "name":"Dealership 1",
+    "cars": [{
+        "make": "honda"
+        "model": "accord"
+    }]
+}
+
+person = {
+    "name": "John Doe",
+    "age": 34,
+    "address": {
+        "street":"1200 Richmond Ave",
+        "city":"Houston"
+        "state":"TX"
+
+    }
+}

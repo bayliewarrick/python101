@@ -1,0 +1,3 @@
+Table 3:  START TIME: 2019-11-13 15:23:44.320913  END TIME: 2019-11-13 15:23:48.192619  TOTAL TIME PLAYED: 0.06 MINUTES  TOTAL COST: $0.03  _______________________________________________ 
+Table 1:  START TIME: 2019-11-13 15:23:42.818283  END TIME: 2019-11-13 15:23:50.749519  TOTAL TIME PLAYED: 0.13 MINUTES  TOTAL COST: $0.065  _______________________________________________ 
+Table 10:  START TIME: 2019-11-13 15:23:40.653135  END TIME: 2019-11-13 15:23:52.345123  TOTAL TIME PLAYED: 0.19 MINUTES  TOTAL COST: $0.095  _______________________________________________ 
